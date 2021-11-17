@@ -16,6 +16,13 @@ body{
     width:100%;
     height:100%;
 }
+#loader{
+    width:100%;
+    height:100vh;
+    background:#000 url(../port-img/loading-38.gif) no-repeat center;
+    position:fixed;
+    z-index:3;
+}
 /*Navigation abr styling starts*/
 #nav{
     background-color:white;
@@ -45,29 +52,36 @@ body{
     font-family:varsity;
     color:#000;
     animation:lightSpeedInRight;
-    animation-duration:2.5s;
+    animation-duration:3s;
 }
 #nav .container .collapse ul li{
+    display:block;
     position:relative;
     animation:lightSpeedInLeft;
-    animation-duration:2.5s;
+    animation-duration:3s;
 }
 #nav .container .collapse ul li:after{
     content:'';
     position:absolute;
     background-color:#000;
     height:2px;
-    width:80%;
+    width:82%;
+    height:80%;
     left:10%;
-    top:80%;
+    top:10%;
     transform:scaleX(0);
     transition:all 0.5s ease-in;
+    border-radius:9px;
 }
 #nav .container .collapse ul li:hover:after{
     transform:scaleX(1);
 }
 #nav .container .collapse ul li a{
     color:#000;
+}
+#nav .container .collapse ul li a:hover{
+    color:#fff;
+    z-index:2;
 }
 #nav .container .navbar-header .navbar-toggle{
     font-size:30px;

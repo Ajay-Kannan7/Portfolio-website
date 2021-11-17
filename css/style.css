@@ -56,6 +56,7 @@ body{
     animation-delay:1999ms;
 }
 #nav .container .collapse ul li{
+    display:block;
     position:relative;
     animation:lightSpeedInLeft;
     animation-duration:3s;
@@ -66,17 +67,23 @@ body{
     position:absolute;
     background-color:#000;
     height:2px;
-    width:80%;
+    width:82%;
+    height:80%;
     left:10%;
-    top:80%;
+    top:10%;
     transform:scaleX(0);
     transition:all 0.5s ease-in;
+    border-radius:9px;
 }
 #nav .container .collapse ul li:hover:after{
     transform:scaleX(1);
 }
 #nav .container .collapse ul li a{
     color:#000;
+}
+#nav .container .collapse ul li a:hover{
+    color:#fff;
+    z-index:2;
 }
 #nav .container .navbar-header .navbar-toggle{
     font-size:30px;

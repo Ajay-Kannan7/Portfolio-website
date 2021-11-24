@@ -31,6 +31,7 @@ also it has utilized some animations open source CSS and Javascript libraries su
   ```
 ### 2) AOS(Javascript library)
    This library allows us to add stunning on scroll animations to improve user experience.
+   
    GitHub repository: https://github.com/michalsnik/aos
    
    You can get started with this by either using

@@ -43,6 +43,13 @@ also it has utilized some animations open source CSS and Javascript libraries su
    ```
      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
    ```
+   ii) Also add this script tag at the end of the file before your main.js file
+   ```
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  ```
    OR
    
    ii) Downloading it either using npm or yarn and then importing it to your file.

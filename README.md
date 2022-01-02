@@ -71,7 +71,7 @@ also it has utilized some animations open source CSS and Javascript libraries su
    
    GitHub repository: https://github.com/gudh/ihover
    
-   To get started with it, you have to download the src folder by forking it and then linking the file in the head part of
+   To get started with it, you have to download the src folder by downloading it and then linking the file in the head part of
    your HTML file.
    
    ```

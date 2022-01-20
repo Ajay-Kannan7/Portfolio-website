@@ -12,7 +12,7 @@ async function handleSubmit(event) {
     }
   }).then(response => {
     status.classList.add('success');
-    status.innerHTML = "Thanks for your submission!";
+    status.insertAdjacentHTML("afterbegin","Thanks for your submission");
     form.reset()
   }).catch(error => {
     status.innerHTML = "Oops! There was a problem submitting your form"

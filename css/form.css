@@ -177,13 +177,16 @@ body{
 #status{
     width:30%;
     height:15%;
-    background-color:black;
+    background-color:rgb(105, 102, 102);
     color:white;
     margin:0 auto;
     margin-top:30px;
+    display:none;
+    margin-bottom:5%;
 }
 #status.success{
     animation:zoomIn 1s;
+    display:block;
 }
 @media only screen and (max-width:1200px){
     #cont2{
@@ -202,6 +205,16 @@ body{
     #cont2 button[type="submit"],
     #cont2 button[type="submit"]::after{
         transition:none;
+    }
+    #status.success{
+        width:75%;
+        font-size:20px;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        text-align:center;
+        align-items:center;
+
     }
 }
 @media only screen and (max-width:1200px) and (orientation:landscape){

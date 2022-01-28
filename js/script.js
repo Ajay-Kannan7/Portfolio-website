@@ -9,3 +9,8 @@ menuBtn.addEventListener('click',() => {
         mopen=false;
     }
 });
+
+//jQuery for tooltip in portfolio.html file
+$(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});

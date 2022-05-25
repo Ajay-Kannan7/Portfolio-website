@@ -148,6 +148,7 @@ body{
     background-color:#000;
     color:#fff;
     font-size:25px;
+    border:1.5px solid #fff;
     border-radius:20px;
     border-style:outset;
     position:relative;

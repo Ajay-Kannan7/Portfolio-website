@@ -108,7 +108,7 @@ body{
 /*Banner styling starts*/
 #cont1{
     width:100%;
-    height:100%;
+    height:100vh;
     justify-content:center;
     text-align:center;
     padding:0;
@@ -126,7 +126,7 @@ body{
     padding:20px 0px;
     font-size:70px;
     position:relative;
-    top:230;
+    top:230px;
     animation:zoomIn 1.8s 1999ms;
     cursor:pointer;
     background-color:transparent;
@@ -137,7 +137,7 @@ body{
     width:0;
     height:2px;
     left:0;
-    top:10;
+    top:10px;
     position:absolute;
     transition:width 0.7s ease-in;
 }
@@ -146,7 +146,7 @@ body{
     background-color:white;
     width:0;
     height:2px;
-    top:100;
+    top:100px;
     right:0;
     position:absolute;
     transition:width 0.7s ease-in;
@@ -167,7 +167,7 @@ body{
     width:0;
     height:2px;
     left:0;
-    top:10;
+    top:10px;
     position:absolute;
     transition:all 0.7s ease-in;
 }
@@ -176,7 +176,7 @@ body{
     background-color:black;
     width:0;
     height:2px;
-    top:190;
+    top:190px;
     right:0;
     position:absolute;
     transition:all 0.7s ease-in;
@@ -193,7 +193,7 @@ body{
     font-size:35px;
     margin:0 auto;
     position:relative;
-    top:230;
+    top:230px;
     cursor:pointer;
     animation:zoomIn;
     animation-duration:3.5s;
@@ -219,11 +219,11 @@ body{
         background-color:black;
     }
     #cont1 .about p{
-        top:80;
+        top:80px;
         font-size:30px;
     }
     #cont1 .banner h1{
-        top:130;
+        top:130px;
         font-size:50px;
     }   
 }

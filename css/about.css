@@ -139,16 +139,25 @@ body{
 .description h2{
     font-size:35px;
 }
-.description ul{
+.description .skills{
     display:flex;
     flex-direction:row;
+    text-align:left;
     justify-content:space-around;
-    text-align:center;
-    margin-top:30px;
+}
+.description .skills ul{
+    width:100%;
+    padding-left:5%;
+}
+.description .skills ul li{
+    flex-shrink:0;
 }
 @media only screen and (max-width:1200px){
-    .description ul{
+    .description .skills{
         flex-direction:column;
+        text-align:center;
+    }
+    .description .skills ul{
         list-style-type:none;
     }
 }

@@ -4,7 +4,7 @@ This portfolio website is a work in progress and it's utilized the tools given a
 also it has utilized some animations open source CSS and Javascript libraries such as Animate.css and AOS(Animate on scroll) library.
 
 # Design
-<img width="946" alt="image" src="https://user-images.githubusercontent.com/78952955/143226551-587a80d4-4a5f-4b77-8a20-ebaeb03fe4e4.png">
+<img width="946" alt="image" src="https://user-images.githubusercontent.com/78952955/189473379-5836bde8-aca8-4d06-a580-3eaa67c32c1a.png">
 
 ## Resources used whilst designing this website
 ### 1) Animate.css

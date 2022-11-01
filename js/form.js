@@ -1,5 +1,5 @@
 var form = document.getElementById("my-form");
-    
+
 async function handleSubmit(event) {
   event.preventDefault();
   var status = document.getElementById("status");
@@ -15,7 +15,8 @@ async function handleSubmit(event) {
     status.insertAdjacentHTML("afterbegin","Thanks for your submission");
     form.reset()
   }).catch(error => {
-    status.innerHTML = "Oops! There was a problem submitting your form"
+    alert("Error while submitting, refreshing the page")
+    location.reload();
   });
 }
 form.addEventListener("submit", handleSubmit)

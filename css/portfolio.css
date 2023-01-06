@@ -151,7 +151,7 @@ body{
     height:100%;
 }
 #cont1 .row .col-lg-4 .ih-item a .info h3{
-    font-size:25px;
+    font-size:50px;
     letter-spacing:2px;
 }
 #cont1 .row .col-lg-4 .ih-item a .info p{
@@ -182,6 +182,12 @@ body{
         width:93vw;
         height:30vh;
         font-size:20px;
+    }
+    #cont1 .row .col-lg-4 .ih-item a .info h3{
+        font-size:25px;
+    }
+    #cont1 .row .col-lg-4 .ih-item a .info p{
+        font-size:10px;
     }
 }
 @media only screen and (max-width:1200px) and (orientation:landscape){
